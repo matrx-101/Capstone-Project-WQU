@@ -185,3 +185,20 @@ This produces hybrid variants:
 Hybrid initialization improves convergence stability and reduces premature random exploration in high-dimensional problems.
 
 ---
+
+
+## How to Run This Project Locally
+
+Follow the steps below to clone and execute the project on your local machine.
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/matrx-101/Capstone-Project-WQU.git
+cd Capstone-Project-WQU
+
+python3 -m venv venv
+source venv/bin/activate     # Mac/Linux
+# venv\Scripts\activate      # Windows
+pip install -r requirements.txt
+python3 -m run.py
